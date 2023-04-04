@@ -1,2 +1,2 @@
-# domointranet.github.io
-Domo intranet
+# domo intranet
+Domo Intranet
