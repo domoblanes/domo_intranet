@@ -3,26 +3,25 @@
 
 <script type="text/javascript">
 window.onload = function() {
-debugger;
-	var userLang = navigator.language || navigator.userLanguage; 
-	userLang=userLang.toLowerCase();
-	
-	if (userLang.indexOf('nl')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/en";
-	} else if (userLang.indexOf('fr')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/fr";
-	} else if (userLang.indexOf('de')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/de";
-	} else if (userLang.indexOf('pl')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/pl";
-	} else if (userLang.indexOf('it')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/it";
-	} else if (userLang.indexOf('es')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/es";
-	} else if (userLang.indexOf('cn')>=0){
-		window.location.href = "https://domochemicals.sharepoint.com/sites/cn";
-	} else {
-		window.location.href = "https://domochemicals.sharepoint.com/sites/en";
-	} 
+    var userLang = navigator.language || navigator.userLanguage; 
+    userLang = userLang.toLowerCase();
+
+    if (userLang.indexOf('fr') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO/SitePages/fr/Home.aspx";
+    } else if (userLang.indexOf('de') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO/SitePages/de/Home.aspx";
+    } else if (userLang.indexOf('it') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO/SitePages/it/Home.aspx";
+    } else if (userLang.indexOf('es') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO/SitePages/es/Home.aspx";
+    } else if (userLang.indexOf('pl') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO/SitePages/pl/Home.aspx";
+    } else if (userLang.indexOf('nl') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO";
+    } else if (userLang.indexOf('cn') >= 0 || userLang.indexOf('zh') >= 0){
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO";
+    } else {
+        window.location.href = "https://domochemicals.sharepoint.com/sites/myDOMO";
+    }
 }
 </script>
